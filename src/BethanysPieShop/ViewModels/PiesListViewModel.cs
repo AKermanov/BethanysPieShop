@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using BethanysPieShop.Models;
-
-namespace BethanysPieShop.ViewModels
+﻿namespace BethanysPieShop.ViewModels
 {
+    using BethanysPieShop.Models;
+    using System.Collections.Generic;
+
     public class PiesListViewModel
     {
         public IEnumerable<Pie> Pies { get; set; }
