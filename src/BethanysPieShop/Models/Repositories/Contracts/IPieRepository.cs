@@ -1,4 +1,4 @@
-﻿namespace BethanysPieShop.Models
+﻿namespace BethanysPieShop.Models.Repositories.Contracts
 {
     using System.Collections.Generic;
     public interface IPieRepository

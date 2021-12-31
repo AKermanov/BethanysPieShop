@@ -2,6 +2,8 @@
 {
     using System.Linq;
     using System.Collections.Generic;
+    using BethanysPieShop.Models.Repositories.Contracts;
+
     public class MockPieRepository : IPieRepository
     {
         private readonly ICategoryRepository _categoryRepository = new MockCategoryRepository();

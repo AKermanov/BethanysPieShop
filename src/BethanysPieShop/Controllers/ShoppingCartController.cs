@@ -4,6 +4,7 @@
     using BethanysPieShop.Models;
     using Microsoft.AspNetCore.Mvc;
     using BethanysPieShop.ViewModels;
+    using BethanysPieShop.Models.Repositories.Contracts;
 
     public class ShoppingCartController : Controller
     {

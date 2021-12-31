@@ -1,8 +1,9 @@
-﻿namespace BethanysPieShop.Models
+﻿namespace BethanysPieShop.Models.Repositories
 {
     using System.Linq;
     using System.Collections.Generic;
     using Microsoft.EntityFrameworkCore;
+    using BethanysPieShop.Models.Repositories.Contracts;
 
     public class PieRepository : IPieRepository
     {

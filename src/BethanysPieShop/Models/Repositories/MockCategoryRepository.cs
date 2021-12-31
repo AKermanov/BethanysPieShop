@@ -1,6 +1,7 @@
 ﻿namespace BethanysPieShop.Models
 {
     using System.Collections.Generic;
+    using BethanysPieShop.Models.Repositories.Contracts;
     public class MockCategoryRepository : ICategoryRepository
     {
         public IEnumerable<Category> AllCategories =>

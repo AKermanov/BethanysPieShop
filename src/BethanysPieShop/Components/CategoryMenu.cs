@@ -2,8 +2,8 @@
 namespace BethanysPieShop.Components
 {
     using System.Linq;
-    using BethanysPieShop.Models;
     using Microsoft.AspNetCore.Mvc;
+    using BethanysPieShop.Models.Repositories.Contracts;
 
     public class CategoryMenu : ViewComponent
     {

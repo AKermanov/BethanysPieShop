@@ -1,7 +1,9 @@
-﻿namespace BethanysPieShop.Models
+﻿namespace BethanysPieShop.Models.Repositories
 {
     using System.Linq;
     using System.Collections.Generic;
+    using BethanysPieShop.Models.Repositories.Contracts;
+
     public class CategoryRepository : ICategoryRepository
     {
         private readonly AppDbContext _appDbContext;

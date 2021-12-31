@@ -1,8 +1,8 @@
 ﻿namespace BethanysPieShop.Controllers
 {
-    using BethanysPieShop.Models;
     using Microsoft.AspNetCore.Mvc;
     using BethanysPieShop.ViewModels;
+    using BethanysPieShop.Models.Repositories.Contracts;
 
     public class HomeController : Controller
     {
@@ -11,7 +11,7 @@
         public HomeController(IPieRepository pieRepository, ICategoryRepository categoryRepository)
         {
             _pieRepository = pieRepository;
-                   }
+        }
 
         public IActionResult Index()
         {
