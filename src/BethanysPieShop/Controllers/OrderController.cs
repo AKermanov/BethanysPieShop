@@ -2,7 +2,10 @@
 {
     using BethanysPieShop.Models;
     using Microsoft.AspNetCore.Mvc;
+    using Microsoft.AspNetCore.Authorization;
     using BethanysPieShop.Models.Repositories.Contracts;
+
+    [Authorize]
     public class OrderController : Controller
     {
         private readonly IPieRepository _pieRepository;
